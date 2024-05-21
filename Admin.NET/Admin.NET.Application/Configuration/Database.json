@@ -7,8 +7,9 @@
     "ConnectionConfigs": [
       {
         //"ConfigId": "1300000000001", // 默认库标识-禁止修改
-        "DbType": "Sqlite", // MySql、SqlServer、Sqlite、Oracle、PostgreSQL、Dm、Kdbndp、Oscar、MySqlConnector、Access、OpenGauss、QuestDB、HG、ClickHouse、GBase、Odbc、Custom
-        "ConnectionString": "DataSource=./Admin.NET.db", // 库连接字符串
+        "DbType": "MySql", // MySql、SqlServer、Sqlite、Oracle、PostgreSQL、Dm、Kdbndp、Oscar、MySqlConnector、Access、OpenGauss、QuestDB、HG、ClickHouse、GBase、Odbc、Custom
+        //"ConnectionString": "DataSource=./Admin.NET.db", // 库连接字符串
+        "ConnectionString": "server=localhost;Database=Admin.Net;Uid=root;Pwd=1qaz2wsx3edc;", // 库连接字符串: null,
         //"SlaveConnectionConfigs": [ // 读写分离/主从
         //	{
         //		"HitRate": 10,
